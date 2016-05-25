@@ -1,6 +1,6 @@
 {
   "name": "qpm_testnet",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "testnet",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/quantumpayments/testnet#readme",
   "dependencies": {
+    "bitcore-lib": "^0.13.16",
     "body-parser": "^1.15.1",
     "commander": "^2.9.0",
     "cors": "^2.7.1",
@@ -28,6 +29,7 @@
     "express": "^4.13.4",
     "express-session": "^1.13.0",
     "http-error": "0.0.6",
+    "qpm_hdwallet": "0.0.3",
     "sequelize": "^3.23.2",
     "vhost": "^3.0.2",
     "webcredits": "^0.1.10",
