@@ -4,7 +4,7 @@ Integration with testnet3
 
 ## Components
 
-The demo contains 4 components
+The demo contains 7 components
 
 * /balance  -- shows your balance
 * /deposit  -- shows deposit status
