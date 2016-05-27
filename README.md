@@ -6,8 +6,13 @@ Integration with testnet3
 
 The demo contains 4 components
 
-* /balance -- shows your balance
-* /home -- navigation and instructions
+* /balance  -- shows your balance
+* /deposit  -- shows deposit status
+* /clear    -- clears funds
+* /toledger -- sends to ledger
+* /sweep    -- sweeps from ledger to your URI
+* /balance  -- shows your balance
+* /home     -- navigation and instructions
 
 Each was deployed as a custom route with its own handler.  
 
@@ -36,12 +41,9 @@ $ openssl genrsa 2048 > ../localhost.key
 $ openssl req -new -x509 -nodes -sha256 -days 3650 -key ../localhost.key -subj '/CN=*.localhost' > ../localhost.cert
 ```
 
-## Faucet
+## HD Public keys
 
-Using [webcredits](https://webcredits.org/) it is possible to set up a faucet using
+Requires an HD public key to generate addresses.  Currently this is hard coded in the routes, so you need some programming skills to create the system (probably not a bad thing!).  It would be more convenient to add as a command line parameter.
 
-    credit create
-
-    credit genesis
-
-    credit insert https://w3id.org/cc#coinbase 50000 '' https://w3id.org/cc#faucet
+HD Public Keys can be obtained at:
+[https://dcpos.github.io/bip39/](https://dcpos.github.io/bip39/)

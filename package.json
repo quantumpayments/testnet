@@ -1,6 +1,6 @@
 {
   "name": "qpm_testnet",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "testnet",
   "main": "index.js",
   "scripts": {
