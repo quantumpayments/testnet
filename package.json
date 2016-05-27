@@ -1,6 +1,6 @@
 {
   "name": "qpm_testnet",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "testnet",
   "main": "index.js",
   "scripts": {
@@ -33,7 +33,7 @@
     "qpm_hdwallet": "0.1.1",
     "sequelize": "^3.23.2",
     "vhost": "^3.0.2",
-    "webcredits": "^0.1.17",
+    "webcredits": "^0.1.20",
     "webid": "^0.3.7"
   }
 }
