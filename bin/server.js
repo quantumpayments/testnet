@@ -5,6 +5,8 @@ var program    = require('commander')
 var wc         = require('../')
 var express    = require('express')
 
+
+
 function bin(argv) {
 
   program
@@ -32,6 +34,7 @@ function bin(argv) {
     console.log(e.stack)
     return 1
   }
+
 
   try {
     app.listen(program.port, function () {
